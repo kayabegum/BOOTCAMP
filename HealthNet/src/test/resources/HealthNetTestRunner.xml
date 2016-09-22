@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Facebook Social" parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="kayabegum"/>
+    <parameter name="accessKey" value="475da171-4e43-46f8-b626-cd41dc080a6c"/>
+    <parameter name="os" value="Win10"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="52.0.2743.116 "/>
+    <!--<parameter name="browserName" value="firefox"/>-->
+    <!--<parameter name="browserVersion" value="48"/>-->
+    <parameter name="url" value="http://www.facebook.com"/>
+
+    <test name = "Facebook Ign">
+        <classes>
+            <!--<class name="BestBuySearch.SearchItems.SearchFacebook"/>-->
+            <!--<class name="SearchFB.HomeLogIn"/>-->
+           <!--<class name="SearchFB.LogIn"/>-->
+        </classes>
+    </test>
+
+</suite>
